@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- http://www.angularjshub.com/examples/modules/registeringprovider/ -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="app/modules-script5.js"></script>
+</head>
+
+<body ng-app="mainModule">
+  <div ng-controller="mainController">
+    <strong>First name:</strong> {{personManagerInstance.getPersonFirstName()}}<br />
+    <strong>Last name:</strong> {{personManagerInstance.getPersonLastName()}}<br />
+    <strong>Full name:</strong> {{personManagerInstance.getPersonFullName("*")}}<br />
+    <br />
+    <label>Set the first name: <input type="text" ng-model="personInstance.firstName"/></label><br />
+    <label>Set the last name: <input type="text" ng-model="personInstance.lastName"/></label>
+  </div>
+</body>
+</html>
