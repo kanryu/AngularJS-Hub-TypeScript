@@ -4,5 +4,5 @@
 #bower install bootstrap -S
 #bower install jquery -S
 bower install
-tsd reinstall
+tsd reinstall -so
 
