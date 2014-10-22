@@ -12,7 +12,7 @@
 
 # fork this
 
-     $ https://github.com/kanryu/AngularJS-Hub-TypeScript
+     $ git clone https://github.com/kanryu/AngularJS-Hub-TypeScript
 
 
 # the Great Reference Book
