@@ -1,13 +1,16 @@
-# AngularJS-Hub-TypeScript - basical samples for AngularJS transplanted in TypeScript
+# AngularJS-Hub-TypeScript
+
+basical samples for AngularJS transplanted in TypeScript
 
 
 # How to use
 
 1. fork me :)
-2. `sh setup.sh` - installed toolset for this(in Windows, you should run by each line)
-3. `minit serve` or run a raw http-server on the directory
-4. access htmls by your browser
-5. have fun! :D
+2. `$ cd AngularJS-Hub-TypeScript`
+3. `$ sh setup.sh` - installed toolset for this(in Windows, you should run by each line)
+4. `$ minit serve` or run a raw http-server on the directory
+5. access htmls with your browser
+6. have fun! :D
 
 
 # fork this
