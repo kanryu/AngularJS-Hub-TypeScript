@@ -8,8 +8,8 @@ basical samples for AngularJS transplanted in TypeScript
 1. fork me :)
 2. `$ cd AngularJS-Hub-TypeScript`
 3. `$ sh setup.sh` - installed toolset for this(in Windows, you should run by each line)
-4. `$ minit serve` or run a raw http-server on the directory
-5. access htmls with your browser
+4. `$ grunt` with a raw http-server for static htmls, or `$ grunt serve` with a php-server (you should install php-cli before).
+5. access htmls with your browser( http://localhost:8083 )
 6. have fun! :D
 
 
