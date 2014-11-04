@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- http://www.angularjshub.com/examples/customdirectives/template/ -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="app/customs-script2.js"></script>
+</head>
+
+<body ng-app="mainModule">
+  <div ng-controller="mainController">
+    <h3>1. Template</h3>
+    <div ngh-template-js>
+      <strong>This content will be replaced</strong>
+      <div>
+        This one will be replaced too
+      </div>
+    </div>
+    <br />
+    <h3>2. TemplateUrl</h3>
+    <div ngh-template-url-dir>
+      <strong>This content will be replaced</strong>
+      <div>
+        This one will be replaced too
+      </div>
+    </div>
+  </div>
+</body>
+</html>

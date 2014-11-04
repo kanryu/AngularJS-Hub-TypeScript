@@ -1,0 +1,28 @@
+{
+  "name": "AngularJS-Hub-TypeScript",
+  "version": "0.0.0",
+  "description": "basical samples for AngularJS transplanted in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kanryu/AngularJS-Hub-TypeScript"
+  },
+  "keywords": [
+    "angularjs",
+    "typescript"
+  ],
+  "author": "KATO Kanryu(k.kanryu@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kanryu/AngularJS-Hub-TypeScript/issues"
+  },
+  "dependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-connect": "~0.8.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-php": "~1.1.1"
+  }
+}
