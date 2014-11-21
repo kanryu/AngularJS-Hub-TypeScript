@@ -1,4 +1,4 @@
-/// <reference path="../typings/tsd.d.ts" />
+/// <reference path="../../../../typings/tsd.d.ts" />
 
 angular.module("html5Module", ["mainModule"])
   .config(function ($locationProvider)

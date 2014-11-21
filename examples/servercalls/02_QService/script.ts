@@ -1,4 +1,4 @@
-/// <reference path="../typings/tsd.d.ts" />
+/// <reference path="../../../typings/tsd.d.ts" />
 
 
 var server_uri = "server2-server.php";

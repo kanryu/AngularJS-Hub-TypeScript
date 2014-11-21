@@ -1,4 +1,4 @@
-/// <reference path="../typings/tsd.d.ts" />
+/// <reference path="../../../typings/tsd.d.ts" />
 
 // *** LOGGING - START ***
 // Elements defined outside the module just for logging

@@ -1,4 +1,4 @@
-/// <reference path="../typings/tsd.d.ts" />
+/// <reference path="../../../typings/tsd.d.ts" />
 var mainModule = angular.module('mainModule', []);
 mainModule.controller("mainController", function ($scope) {
     $scope.myScopeVar = "the scope variable value";
@@ -8,6 +8,6 @@ mainModule.controller("mainController", function ($scope) {
     };
 }).directive("nghTemplateUrlDir", function () {
     return {
-        templateUrl: 'customs2-nghTemplate.html'
+        templateUrl: 'nghTemplate.html'
     };
 });

@@ -2,18 +2,18 @@
 <html>
 <head>
 <!-- http://www.angularjshub.com/examples/conditionaldisplay/include/ -->
-  <script src="bower_components/angular/angular.js"></script>
+  <script src="/bower_components/angular/angular.js"></script>
 </head>
 
 <body ng-app ng-init="inputVar = 'test';">
   <label>Type something: <input type="text" ng-model="inputVar" /></label><br />
   <br />
   <h3>1. Simple include</h3>
-  <div ng-include="'conditionals4-fragment1.html'"></div>
+  <div ng-include="'fragment1.html'"></div>
   <br />
   <h3>2. Conditional include</h3>
   <label>Include fragment 2: <input type="checkbox" ng-model="includeFrag2" /></label>
-  <div ng-include="includeFrag2 ? 'conditionals4-fragment2.html' : 'conditionals4-fragment1.html'"></div>
+  <div ng-include="includeFrag2 ? 'fragment2.html' : 'fragment1.html'"></div>
 </div>
 </body>
 </html>
