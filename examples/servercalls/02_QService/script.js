@@ -1,5 +1,5 @@
-/// <reference path="../typings/tsd.d.ts" />
-var server_uri = "server2-server.php";
+/// <reference path="../../../typings/tsd.d.ts" />
+var server_uri = "server.php";
 var mainModule = angular.module('mainModule', []);
 mainModule.controller("mainController", function ($scope, $q, $http) {
     var customAsyncFunc = function (callerId, withSuccess, duration) {

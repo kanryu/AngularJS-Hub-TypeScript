@@ -1,6 +1,6 @@
-/// <reference path="../typings/tsd.d.ts" />
+/// <reference path="../../../typings/tsd.d.ts" />
+var server_uri = "server.php";
 var mainModule = angular.module('mainModule', []);
-var server_uri = "server1-server.php";
 mainModule.controller("mainController", function ($scope, $http, jsonFilter) {
     var logResult = function (str, data, status, headers, config) {
         return str + "\n\n" + "data: " + data + "\n\n" + "status: " + status + "\n\n" + "headers: " + jsonFilter(headers()) + "\n\n" + "config: " + jsonFilter(config);

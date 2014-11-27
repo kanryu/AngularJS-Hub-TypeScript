@@ -1,7 +1,7 @@
 /// <reference path="../../../typings/tsd.d.ts" />
 
 
-var server_uri = "server1-server.php";
+var server_uri = "server.php";
 
 var mainModule:ng.IModule = angular.module('mainModule',[]);
 mainModule.controller("mainController", function ($scope, $http, jsonFilter)

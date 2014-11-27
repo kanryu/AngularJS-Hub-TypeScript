@@ -1,8 +1,8 @@
 /// <reference path="../../../typings/tsd.d.ts" />
 
 
-var SERVER_URI = "server3-server.php";
-var PEOPLE_URI = "server3-people.php";
+var SERVER_URI = "server.php";
+var PEOPLE_URI = "people";
 
 var mainModule:ng.IModule = angular.module('mainModule',['ngResource']);
 mainModule.factory("PeopleService", ['$resource', function ($resource)
